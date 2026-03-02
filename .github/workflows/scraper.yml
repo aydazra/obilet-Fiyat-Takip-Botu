@@ -1,42 +1,38 @@
 name: Obilet Uçuş Scraper
 
 on:
-  # Her gün saat 08:00 UTC'de otomatik çalış
   schedule:
-    - cron: "0 8 * * *"
-
-  # Manuel de tetiklenebilsin
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Kodu çek
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: ⚙️ Node.js kur
-        uses: actions/setup-node@v4
+      - name: Node.js kur
+        uses: actions/setup-node@v3
         with:
-          node-version: "20"
-          cache: "npm"
+          node-version: '18'
 
-      - name: 📦 Bağımlılıkları yükle
-        run: npm install
-
-      - name: 🌐 Chrome bağımlılıklarını yükle
+      - name: Chrome kur
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 \
-            libgbm1 libasound2 libxshmfence1
+          sudo apt-get install -y google-chrome-stable
 
-      - name: ✈️ Scraper'ı çalıştır
-        run: npm start
+      - name: Bağımlılıkları yükle
+        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
 
-      - name: 💾 Güncel verileri commit et
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "🤖 Otomatik: Uçuş fiyatları güncellendi [$(date +'%d.%m.%Y %H:%M')]"
-          file_pattern: "fiyatlar.json public/data.json"
+      - name: Scraper çalıştır
+        run: npx ts-node src/scraper.ts
+        env:
+          CHROME_PATH: /usr/bin/google-chrome-stable
+
+      - name: Sonuçları kaydet
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add fiyatlar.json
+          git diff --staged --quiet || git commit -m "Fiyatlar güncellendi"
+          git push
