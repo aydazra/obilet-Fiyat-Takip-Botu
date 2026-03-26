@@ -8,7 +8,7 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-03-26T19:49:41.663Z",
+  "scrapedAt": "2026-03-26T20:26:36.281Z",
   "flights": [
     {
       "airline": "Pegasus",
@@ -43,11 +43,11 @@
       "isDirect": true
     },
     {
-      "airline": "Pegasus",
-      "departureTime": "11:30",
-      "arrivalTime": "12:30",
-      "duration": "",
-      "price": "1.781,99 TL",
+      "airline": "THY",
+      "departureTime": "06:00",
+      "arrivalTime": "07:05",
+      "duration": "1s 5dk",
+      "price": "2.023,01 TL",
       "isDirect": true
     }
   ]
