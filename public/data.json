@@ -8,6 +8,47 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-04-30T01:52:39.589Z",
-  "flights": []
+  "scrapedAt": "2026-04-30T05:21:54.776Z",
+  "flights": [
+    {
+      "airline": "AJet",
+      "departureTime": "05:25",
+      "arrivalTime": "06:30",
+      "duration": "1s 5dk",
+      "price": "1.250,63 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "THY",
+      "departureTime": "06:00",
+      "arrivalTime": "07:05",
+      "duration": "1s 5dk",
+      "price": "2.090,94 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "THY",
+      "departureTime": "07:00",
+      "arrivalTime": "08:10",
+      "duration": "1s 10dk",
+      "price": "3.153,96 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "THY",
+      "departureTime": "08:00",
+      "arrivalTime": "09:10",
+      "duration": "1s 10dk",
+      "price": "3.153,96 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "THY",
+      "departureTime": "10:00",
+      "arrivalTime": "11:05",
+      "duration": "1s 5dk",
+      "price": "3.529,30 TL",
+      "isDirect": true
+    }
+  ]
 }
