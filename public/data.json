@@ -3,51 +3,51 @@
     "tripType": "one-way",
     "origin": "Istanbul",
     "destination": "Ankara",
-    "departureDate": "04.05.2026",
+    "departureDate": "05.05.2026",
     "adults": 1,
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-05-01T23:41:39.985Z",
+  "scrapedAt": "2026-05-02T01:43:57.971Z",
   "flights": [
     {
-      "airline": "Pegasus",
-      "departureTime": "23:10",
-      "arrivalTime": "00:10",
-      "duration": "",
-      "price": "1.458,99 TL",
+      "airline": "AJet",
+      "departureTime": "01:30",
+      "arrivalTime": "02:35",
+      "duration": "1s 5dk",
+      "price": "1.043,61 TL",
       "isDirect": true
     },
     {
       "airline": "AJet",
-      "departureTime": "23:00",
-      "arrivalTime": "00:05",
+      "departureTime": "05:25",
+      "arrivalTime": "06:30",
       "duration": "1s 5dk",
-      "price": "1.463,50 TL",
+      "price": "1.253,74 TL",
       "isDirect": true
     },
     {
       "airline": "Pegasus",
-      "departureTime": "22:05",
-      "arrivalTime": "23:05",
+      "departureTime": "00:15",
+      "arrivalTime": "01:15",
       "duration": "",
-      "price": "1.683,66 TL",
+      "price": "1.473,58 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "Pegasus",
+      "departureTime": "17:05",
+      "arrivalTime": "18:05",
+      "duration": "",
+      "price": "1.473,58 TL",
       "isDirect": true
     },
     {
       "airline": "AJet",
-      "departureTime": "15:25",
-      "arrivalTime": "16:30",
+      "departureTime": "08:00",
+      "arrivalTime": "09:05",
       "duration": "1s 5dk",
-      "price": "1.844,97 TL",
-      "isDirect": true
-    },
-    {
-      "airline": "Pegasus",
-      "departureTime": "15:05",
-      "arrivalTime": "16:05",
-      "duration": "",
-      "price": "1.846,37 TL",
+      "price": "1.478,10 TL",
       "isDirect": true
     }
   ]
