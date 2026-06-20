@@ -8,16 +8,8 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-06-20T16:16:04.069Z",
+  "scrapedAt": "2026-06-20T18:04:01.152Z",
   "flights": [
-    {
-      "airline": "AJet",
-      "departureTime": "05:25",
-      "arrivalTime": "06:30",
-      "duration": "1s 5dk",
-      "price": "1.252,23 TL",
-      "isDirect": true
-    },
     {
       "airline": "AJet",
       "departureTime": "15:40",
@@ -40,6 +32,14 @@
       "arrivalTime": "00:10",
       "duration": "",
       "price": "1.465,94 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "AJet",
+      "departureTime": "05:25",
+      "arrivalTime": "06:30",
+      "duration": "1s 5dk",
+      "price": "1.480,75 TL",
       "isDirect": true
     },
     {
