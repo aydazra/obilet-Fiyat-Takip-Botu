@@ -3,19 +3,19 @@
     "tripType": "one-way",
     "origin": "Istanbul",
     "destination": "Ankara",
-    "departureDate": "27.06.2026",
+    "departureDate": "28.06.2026",
     "adults": 1,
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-06-24T23:57:02.544Z",
+  "scrapedAt": "2026-06-25T02:37:20.522Z",
   "flights": [
     {
       "airline": "Pegasus",
-      "departureTime": "20:15",
-      "arrivalTime": "21:15",
+      "departureTime": "05:25",
+      "arrivalTime": "06:25",
       "duration": "",
-      "price": "1.674,99 TL",
+      "price": "1.248,99 TL",
       "isDirect": true
     },
     {
@@ -23,7 +23,15 @@
       "departureTime": "05:25",
       "arrivalTime": "06:30",
       "duration": "1s 5dk",
-      "price": "1.728,28 TL",
+      "price": "1.254,78 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "Pegasus",
+      "departureTime": "07:45",
+      "arrivalTime": "08:45",
+      "duration": "",
+      "price": "1.675,48 TL",
       "isDirect": true
     },
     {
@@ -31,23 +39,15 @@
       "departureTime": "08:00",
       "arrivalTime": "09:05",
       "duration": "1s 5dk",
-      "price": "2.002,80 TL",
+      "price": "2.007,76 TL",
       "isDirect": true
     },
     {
       "airline": "Pegasus",
-      "departureTime": "07:25",
-      "arrivalTime": "08:25",
+      "departureTime": "00:30",
+      "arrivalTime": "01:30",
       "duration": "",
-      "price": "2.158,64 TL",
-      "isDirect": true
-    },
-    {
-      "airline": "Pegasus",
-      "departureTime": "19:05",
-      "arrivalTime": "20:05",
-      "duration": "",
-      "price": "2.158,64 TL",
+      "price": "2.030,67 TL",
       "isDirect": true
     }
   ]
