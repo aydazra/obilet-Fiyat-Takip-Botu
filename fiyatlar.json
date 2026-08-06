@@ -8,7 +8,7 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-08-06T10:25:32.459Z",
+  "scrapedAt": "2026-08-06T12:49:22.782Z",
   "flights": [
     {
       "airline": "Pegasus",
@@ -47,7 +47,7 @@
       "departureTime": "05:25",
       "arrivalTime": "06:30",
       "duration": "1s 5dk",
-      "price": "1.490,01 TL",
+      "price": "1.493,70 TL",
       "isDirect": true
     }
   ]
