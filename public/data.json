@@ -8,28 +8,12 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-10-03T01:31:35.171Z",
+  "scrapedAt": "2026-10-03T07:13:38.935Z",
   "flights": [
-    {
-      "airline": "Pegasus",
-      "departureTime": "12:05",
-      "arrivalTime": "13:05",
-      "duration": "",
-      "price": "1.455,99 TL",
-      "isDirect": true
-    },
     {
       "airline": "Pegasus",
       "departureTime": "17:05",
       "arrivalTime": "18:05",
-      "duration": "",
-      "price": "1.455,99 TL",
-      "isDirect": true
-    },
-    {
-      "airline": "Pegasus",
-      "departureTime": "18:50",
-      "arrivalTime": "19:50",
       "duration": "",
       "price": "1.455,99 TL",
       "isDirect": true
@@ -48,6 +32,22 @@
       "arrivalTime": "00:10",
       "duration": "",
       "price": "1.455,99 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "AJet",
+      "departureTime": "05:25",
+      "arrivalTime": "06:30",
+      "duration": "1s 5dk",
+      "price": "1.473,99 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "AJet",
+      "departureTime": "08:00",
+      "arrivalTime": "09:05",
+      "duration": "1s 5dk",
+      "price": "1.473,99 TL",
       "isDirect": true
     }
   ]
