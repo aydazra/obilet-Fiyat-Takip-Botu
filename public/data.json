@@ -8,30 +8,14 @@
     "children": 0,
     "nonStop": false
   },
-  "scrapedAt": "2026-10-26T17:49:02.146Z",
+  "scrapedAt": "2026-10-26T22:01:48.703Z",
   "flights": [
-    {
-      "airline": "Pegasus",
-      "departureTime": "06:50",
-      "arrivalTime": "07:50",
-      "duration": "",
-      "price": "1.458,99 TL",
-      "isDirect": true
-    },
     {
       "airline": "Pegasus",
       "departureTime": "11:50",
       "arrivalTime": "12:50",
       "duration": "",
-      "price": "1.458,99 TL",
-      "isDirect": true
-    },
-    {
-      "airline": "Pegasus",
-      "departureTime": "14:10",
-      "arrivalTime": "15:10",
-      "duration": "",
-      "price": "1.458,99 TL",
+      "price": "1.459,99 TL",
       "isDirect": true
     },
     {
@@ -39,7 +23,7 @@
       "departureTime": "15:05",
       "arrivalTime": "16:05",
       "duration": "",
-      "price": "1.458,99 TL",
+      "price": "1.459,99 TL",
       "isDirect": true
     },
     {
@@ -47,7 +31,23 @@
       "departureTime": "17:35",
       "arrivalTime": "18:35",
       "duration": "",
-      "price": "1.458,99 TL",
+      "price": "1.459,99 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "Pegasus",
+      "departureTime": "18:40",
+      "arrivalTime": "19:40",
+      "duration": "",
+      "price": "1.459,99 TL",
+      "isDirect": true
+    },
+    {
+      "airline": "Pegasus",
+      "departureTime": "19:50",
+      "arrivalTime": "20:50",
+      "duration": "",
+      "price": "1.459,99 TL",
       "isDirect": true
     }
   ]
